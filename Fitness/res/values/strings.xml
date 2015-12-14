@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fitness</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="signuppage">Let\'s sign you up</string>    
+    <string name="username">User Name</string>
+    <string name="password">Password</string>
+    <string name="sign_up_re_password">Re-enter Password</string>
+    <string name="sign_up_gender">I am</string>
+    <string name="radio_male">Male</string>
+    <string name="radio_female">Female</string>
+    <string name="radio_third">Unique</string>
+    <string name="sign_up_age">Age</string>
+    <string name="sign_up_email">Email</string>
+    <string name="sign_up_phone">Phone</string>
+    <string name="sign_up_alt_phone">Alternate Phone</string>
+    <string name="sign_up_lives">Lives</string>    
+    <string name="sign_up_zip">zip</string>    
+    <string name="sign_up_height">Height</string>    
+    <string name="sign_up_weight">Weight</string>    
+    
+    <string name="signin">Sign In</string>
+    <string name="register">Sign Up</string>
+
+</resources>
