@@ -1,24 +1,21 @@
 package com.android.fitness;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-import android.database.sqlite.SQLiteStatement;
 import android.os.Bundle;
-import android.text.method.LinkMovementMethod;
+import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
-public class LoginActivity extends Activity implements OnClickListener {
+public class LoginActivity extends ActionBarActivity implements OnClickListener {
 
 	private Button saveButton;
 	private Button registerButton;
-
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 
@@ -70,7 +67,7 @@ public class LoginActivity extends Activity implements OnClickListener {
 					"Sign In successful! Get ready to be fit",
 					Toast.LENGTH_LONG).show();
 			Intent intent = new Intent(getApplicationContext(),
-					PagerAdapter.class);
+					DashboardActivity.class);
 			startActivity(intent);
 		}
 
